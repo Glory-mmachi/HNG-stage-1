@@ -12,6 +12,10 @@
   max-width: 400px;
   box-shadow: 2px 2px 10px rgb(157, 100, 72);
 }
+h1 {
+  font-size: 45px;
+  text-shadow: 3px 3px 10px rgb(157, 100, 72);
+}
 .img-container {
   width: 250px;
   margin: 0 auto;
