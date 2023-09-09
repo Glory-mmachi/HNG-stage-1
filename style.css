@@ -9,7 +9,7 @@
   color: rgb(92, 85, 72);
   text-align: center;
   margin: 30px auto;
-  width: 80%;
+  max-width: 400px;
   box-shadow: 2px 2px 10px rgb(157, 100, 72);
 }
 .img-container {
@@ -23,7 +23,7 @@ img {
 }
 img:hover {
   transition: 3s;
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 main {
   font-size: 30px;
