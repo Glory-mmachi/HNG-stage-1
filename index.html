@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>HNG-stage-1</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 data-testid="slackDisplayName">Glory Mmachi</h1>
+      <div class="img-container">
+        <img
+          src="./slackImage.jpg"
+          alt="Glory Mmachi"
+          data-testid="slackDisplayImage"
+        />
+      </div>
+      <main>
+        <p data-testid="curentDayOfTheWeek">Day : <span class="day"></span></p>
+        <p data- testid="currentUTCTime">
+          UTC Time: <span class="time"> </span>
+        </p>
+        <p data-testid="myTrack" class="track">Frontend</p>
+        <a
+          href="https://github.com/Glory-mmachi/HNG-stage-1"
+          target="_blank"
+          data-testid="githubURL"
+          class="github"
+          >Github</a
+        >
+      </main>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
